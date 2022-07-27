@@ -22,11 +22,12 @@
         <div class="promo__menu">
             <nav class="promo__menu-list">
                 <ul>
-                    <li><a class="promo__menu-item promo__menu-item_active" data-n="0" href="#">Фильмы</a></li>
-                    <li><a class="promo__menu-item" data-n="1" href="#">Сериалы</a></li>
-                    <li><a class="promo__menu-item" data-n="2" href="#">Мультфильмы</a></li>
-                    <li><a class="promo__menu-item" data-n="3" href="#">Клипы</a></li>
-                    <li><a class="promo__menu-item" data-n="4" href="#">Трейлеры</a></li>
+                    <li><a class="promo__menu-item promo__menu-item_active" data-n="0" href="#">All</a></li>
+                    <li><a class="promo__menu-item" data-n="1" href="#">Drama</a></li>
+                    <li><a class="promo__menu-item" data-n="2" href="#">Comedy</a></li>
+                    <li><a class="promo__menu-item" data-n="3" href="#">Action</a></li>
+                    <li><a class="promo__menu-item" data-n="4" href="#">Melodrama</a></li>
+                    <li><a class="promo__menu-item" data-n="5" href="#">Fantastick</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,7 +43,7 @@
             </div>
             <div class="promo__interactive">
                 <div>
-                    <div class="promo__interactive-title">ПРОСМОТРЕННЫЕ <span class="w1">ФИЛЬМЫ</span></div>
+                    <div class="promo__interactive-title">ПРОСМОТРЕННЫЕФИЛЬМЫ</div>
                     <ul class="promo__interactive-list">
                         <li class="promo__interactive-item">ЛОГАН
                             <div class="delete"></div>
@@ -63,8 +64,8 @@
                 </div>
                 <div>
                     <form class="add" name="add">
-                        <div class="promo__interactive-title">ДОБАВИТЬ НОВЫЙ <p class="w2">ФИЛЬМ</p></div>
-                        <span>Введите название <span class="w3">фильма</span></span>
+                        <div class="promo__interactive-title">ДОБАВИТЬ НОВЫЙ ФИЛЬМ</div>
+                        <span>Введите название фильма</span>
                         <input class="adding__input" type="text" placeholder="Что уже посмотрено...?">
                         <span>Сделать его любимым?</span>
                         <input type="checkbox" class="checkbox">
@@ -81,6 +82,27 @@
             <img src="img/content_3.png" alt="some picture">
         </div>
     </main>
+
+    <div class="modal_bg"></div>
+    <div class="modal">
+        <div class="modal_left">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg" alt="">
+        </div>
+        <div class="modal_right">
+            <h1>Doctor Strange</h1>
+            <h1 class="date">2016</h1>
+            <h2>Action, Adventure, Fantasy, Sci-Fi</h2>
+            <p>While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.</p>
+            <div class="modal_right_bottom">
+                <div class="stars">
+                    <img src="./icons/Star.svg" alt="">
+                </div>
+                <h2 class="imdbRating">7.5</h2>
+                <button>close</button>
+            </div>
+        </div>
+    </div>
+    
 
     <script src="js/script.js"></script>
 </body>
